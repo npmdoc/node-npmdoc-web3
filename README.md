@@ -1,6 +1,6 @@
 # npmdoc-web3
 
-#### api documentation for  [web3 (v0.18.4)](https://github.com/ethereum/web3.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-web3.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-web3) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-web3.svg)](https://travis-ci.org/npmdoc/node-npmdoc-web3)
+#### basic api documentation for  [web3 (v0.18.4)](https://github.com/ethereum/web3.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-web3.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-web3) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-web3.svg)](https://travis-ci.org/npmdoc/node-npmdoc-web3)
 
 #### Ethereum JavaScript API, middleware to talk to a ethereum node over RPC
 
@@ -117,7 +117,8 @@
         "test-coveralls": "istanbul cover _mocha -- -R spec && cat coverage/lcov.info | coveralls --verbose",
         "watch": "gulp watch"
     },
-    "version": "0.18.4"
+    "version": "0.18.4",
+    "bin": {}
 }
 ```
 
